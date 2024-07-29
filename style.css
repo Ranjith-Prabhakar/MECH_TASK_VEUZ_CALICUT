@@ -59,6 +59,7 @@ body, html {
             display: flex;
             justify-content: center;
             align-items: center;
+            position: relative;
         }
 
         .animation-orbit-one,
@@ -121,6 +122,19 @@ body, html {
  .animation-window{
   width: 150px;
   height: 200px;
+ }
+ .animation-content{
+  position: absolute;
+  bottom: 30px;
+  font-family: var(--font-popins);
+  text-align: center;
+ }
+ .animation-content-span-one{
+  color: var(--color-white);
+  
+ }
+ .animation-content-span-two{
+  color: var(--primary-color);
  }
 /* hero section */
 .hero {
