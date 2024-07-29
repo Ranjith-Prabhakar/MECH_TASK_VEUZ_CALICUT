@@ -5,6 +5,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
   <link rel="stylesheet" href="style.css">
   <script src="./main.js" async></script>
 </head>
@@ -23,6 +25,34 @@
       </ul>
     </div>
   </nav>
+
+  <!-- animation -->
+  <div id="animation" class="animation">
+    <div class="animation-orbit-one">
+      <div class="animation-orbit-two">
+        <div class="animation-orbit-three">
+          <div class="animation-orbit-four">
+            <div class="animation-orbit-five">
+              <img id="animation-cloud" class="animation-cloud" src="./Public/Animation/cloud.png" alt="" srcset="">
+              <img id="animation-birds" class="animation-birds" src="./Public/Animation/birds.png" alt="" srcset="">
+              <div class="animation-windows-container">
+                <img id="animation-window-one" class="animation-window" src="./Public/Animation/window-1.png" alt=""
+                  srcset="">
+                <img id="animation-window-two" class="animation-window" src="./Public/Animation/window-1.png" alt=""
+                  srcset="">
+                <img id="animation-window-three" class="animation-window" src="./Public/Animation/window-1.png" alt=""
+                  srcset="">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+
+  </div>
   <!-- hero section-->
   <section name="hero" class="hero">
     <img class="hero-image" src="./Public/Hero image.jpeg" alt="">
@@ -30,6 +60,8 @@
       <h1 class="hero-heading">Mastering Your Journey</h1>
       <p class="hero-paragraph">Let us help you explore the world's wonders in a way that speaks to your heart. Your
         perfect journey starts here!</p>
+      <p class="hero-paragraph hero-paragraph-two">Popular Place : <span class="hero-paragraph-two-span">Bali, Istanbul,
+          Rome, Paris.</span></p>
     </div>
   </section>
   <!-- explore section -->
@@ -40,26 +72,49 @@
     </div>
 
     <div class="explore-middle-section">
-      <div class="button-border"><img class="explore-middle-section-image" src="./Public/Backward Arrow.png" alt=""
-          srcset=""></div>
+      <div class="button-border"><i class="fa-solid fa-chevron-left cheveron-icon"></i></div>
       <p class="explore-middle-section-paragraph">Explore the world with what you love beautiful natural beauty.</p>
-      <div class="button-border"><img class="explore-middle-section-image" src="./Public/Forward Arrow.png" alt=""
-          srcset=""></div>
+      <div class="button-border"><i class="fa-solid fa-chevron-right cheveron-icon"></i></div>
     </div>
 
     <div class="explore-bottom-section">
       <div class="card-wrapper">
         <img class="image-card" src="./Public/couples.png" srcset="">
+        <div class="explore-image-card-content">
+          <h1 class="explore-image-card-content-heading">Paris,France.</h1>
+          <p class="explore-image-card-content-paragraph">Paris is a beautiful tourist spot and is visited by many
+            travelers.</p>
+          <div class="explore-image-card-footmark">
+            <i class="fa-solid fa-shoe-prints "></i>
+          </div>
+        </div>
       </div>
       <div class="card-wrapper">
         <img class="image-card" src="./Public/man_looking_to_river.png" srcset="">
+        <div class="explore-image-card-content">
+          <h1 class="explore-image-card-content-heading">Bali,Indonesia.</h1>
+          <p class="explore-image-card-content-paragraph">Bali is a beautiful tourist spot and is visited by many
+            travelers.</p>
+          <div class="explore-image-card-footmark">
+            <i class="fa-solid fa-shoe-prints "></i>
+          </div>
+        </div>
       </div>
 
       <div class="card-wrapper">
         <img class="image-card" src="./Public/statue of freedom.png" srcset="">
+        <div class="explore-image-card-content">
+          <h1 class="explore-image-card-content-heading">New York,USA.</h1>
+          <p class="explore-image-card-content-paragraph">New York is a beautiful tourist spot and is visited by many
+            travelers.</p>
+          <div class="explore-image-card-footmark">
+            <i class="fa-solid fa-shoe-prints "></i>
+          </div>
+
+        </div>
       </div>
-      
-      <div class="card-wrapper">
+
+      <!-- <div class="card-wrapper">
         <img class="image-card" src="./Public/couples.png" srcset="">
       </div>
       <div class="card-wrapper">
@@ -67,10 +122,219 @@
       </div>
       <div class="card-wrapper">
         <img class="image-card" src="./Public/statue of freedom.png" srcset="">
-      </div>
+      </div> -->
     </div>
 
   </section>
+
+  <!-- about section -->
+  <section name="about" class="about">
+    <div class="about-bg-container">
+      <div class="about-first-section">
+        <div class="about-head-and-content">
+          <h1 class="about-head">Why Sky Guru?</h1>
+          <p class="about-content-paragraph">Vacations are special, and you deserve to spend them the right way! </p>
+        </div>
+        <div class="about-navigator">
+          <div class="button-border"><i class="fa-solid fa-chevron-left cheveron-icon"></i>
+          </div>
+          <div class="button-border"><i class="fa-solid fa-chevron-right cheveron-icon"></i>
+          </div>
+        </div>
+      </div>
+      <div class="about-card-container">
+        <div class="about-card">
+          <div><img class="about-card-img" src="./Public/About/firstone.jpg" alt="about-first-image" srcset=""></div>
+          <div>
+            <h4 class="about-card-heading">Best Service</h4>
+          </div>
+          <div>
+            <p class="about-card-content-paragraph">Beyond just a trip; we are all about crafting unforgettable
+              experiences. With our warm smiles and
+              personalized
+              attention, every moment of your journey is stress-free and memorable.  </p>
+          </div>
+          <div class="about-card-navigator">
+            <h5>Learn more</h5>
+            <img class="about-card-navigator-icon" src="./Public/About/LearnMoreArrow.png" alt="" srcset="">
+          </div>
+        </div>
+        <div class="about-card">
+          <div><img class="about-card-img" src="./Public/About/second.jpg" alt="about-second-image" srcset=""></div>
+          <div>
+            <h4 class="about-card-heading">Best Price Assurance</h4>
+          </div>
+          <div>
+            <p class="about-card-content-paragraph">Worried about breaking the bank? Fear not! At Sky Guru Travels, we
+              promise the best prices for your dream adventures.
+              Get ready for unbeatable deals without compromising on quality.</p>
+          </div>
+          <div class="about-card-navigator">
+            <h5>Learn more</h5>
+            <img class="about-card-navigator-icon" src="./Public/About/LearnMoreArrow.png" alt="" srcset="">
+          </div>
+        </div>
+        <div class="about-card">
+          <div><img class="about-card-img" src="./Public/About/third.jpg" alt="about-third-image" srcset=""></div>
+          <div>
+            <h4 class="about-card-heading">Best Lodging Choices</h4>
+          </div>
+          <div>
+            <p class="about-card-content-paragraph">From cozy hideaways to luxurious resorts, we've handpicked the
+              finest accommodations just for you. Rest easy knowing
+              that wherever you lay your head, it'll be a perfect match for your style and comfort. </p>
+          </div>
+          <div class="about-card-navigator">
+            <h5>Learn more</h5>
+            <img class="about-card-navigator-icon" src="./Public/About/LearnMoreArrow.png" alt="" srcset="">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- testimonial -->
+
+  <section name="testimonial" class="testimonial">
+    <div class="testimonial-firs-section">
+      <h3 class="testimonial-firs-section-first-head">TESTIMONIAL</h3>
+      <h1 class="testimonial-firs-section-second-head">Our Traveler Tales</h1>
+      <p class="testimonial-firs-section-content-paragraph">Real stories, real smiles. Hear the stories where they share
+        their Sky Guru experiences. </p>
+    </div>
+    <!--  -->
+    <div class="testimonial-navigator">
+      <div class="testimonial-button-container">
+        <div class="button-border"><i class="fa-solid fa-chevron-left cheveron-icon"></i>
+        </div>
+        <div class="button-border"><i class="fa-solid fa-chevron-right cheveron-icon"></i>
+        </div>
+      </div>
+    </div>
+    <!--  -->
+    <div class="testimonial-card-section">
+
+      <div class="testimonial-cards">
+        <div class="testimonial-card-img-and-head">
+          <img class="testimonial-card-img" src="./Public/Testimonial/sarah jay.jpeg" alt="sara" srcset="">
+          <h3 class="testimonial-card-head-h3">Sara Jay</h3>
+          <h5 class="testimonial-card-head-h5">Traveller</h5>
+        </div>
+        <div class="testimonial-card-content-and-star">
+          <div class="testimonial-card-stars-container">
+            <img class="testimonial-card-star" src="./Public/Testimonial/star.jpg" alt="">
+            <img class="testimonial-card-star" src="./Public/Testimonial/star.jpg" alt="">
+            <img class="testimonial-card-star" src="./Public/Testimonial/star.jpg" alt="">
+            <img class="testimonial-card-star" src="./Public/Testimonial/star.jpg" alt="">
+            <img class="testimonial-card-star" src="./Public/Testimonial/star.jpg" alt="">
+          </div>
+          <p class="testimonial-card-content">
+            Sky Guru Travels truly took the stress out of planning my adventure trip. From arranging accommodations to
+            coordinating
+            transportation, they handled every detail efficiently.  
+          </p>
+        </div>
+      </div>
+
+      <div class="testimonial-cards">
+        <div class="testimonial-card-img-and-head">
+          <img class="testimonial-card-img" src="./Public/Testimonial/christian daniel.jpeg" alt="daniel" srcset="">
+          <h3 class="testimonial-card-head-h3">Sara Jay</h3>
+          <h5 class="testimonial-card-head-h5">Traveller</h5>
+        </div>
+        <div class="testimonial-card-content-and-star">
+          <div class="testimonial-card-stars-container">
+            <img class="testimonial-card-star" src="./Public/Testimonial/star.jpg" alt="">
+            <img class="testimonial-card-star" src="./Public/Testimonial/star.jpg" alt="">
+            <img class="testimonial-card-star" src="./Public/Testimonial/star.jpg" alt="">
+            <img class="testimonial-card-star" src="./Public/Testimonial/star.jpg" alt="">
+            <img class="testimonial-card-star" src="./Public/Testimonial/star.jpg" alt="">
+          </div>
+          <p class="testimonial-card-content">
+            As a solo traveler, I often worry about the logistics of navigating a new destination. However, with Sky
+            Guru Travels, I
+            felt completely at ease. Thanks to them, I was able to focus on soaking in the stunning landscapes in Bali.
+          </p>
+        </div>
+      </div>
+
+      <div class="testimonial-cards">
+        <div class="testimonial-card-img-and-head">
+          <img class="testimonial-card-img" src="./Public/Testimonial/kausar hasan.jpeg" alt="hasan" srcset="">
+          <h3 class="testimonial-card-head-h3">Sara Jay</h3>
+          <h5 class="testimonial-card-head-h5">Traveller</h5>
+        </div>
+        <div class="testimonial-card-content-and-star">
+          <div class="testimonial-card-stars-container">
+            <img class="testimonial-card-star" src="./Public/Testimonial/star.jpg" alt="">
+            <img class="testimonial-card-star" src="./Public/Testimonial/star.jpg" alt="">
+            <img class="testimonial-card-star" src="./Public/Testimonial/star.jpg" alt="">
+            <img class="testimonial-card-star" src="./Public/Testimonial/star.jpg" alt="">
+            <img class="testimonial-card-star" src="./Public/Testimonial/star.jpg" alt="">
+          </div>
+          <p class="testimonial-card-content">
+            Sky Guru Travels made my business trip perfect. From arranging flights to securing accommodation close to my
+            meetings,
+            they handled it all with efficiency and professionalism. It was a relief knowing that I could focus on my
+            work,
+            confident that every logistical detail was expertly managed. 
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- subscribe section -->
+  <section name="subscribe" class="subscribe">
+    <div class="subscribe-container">
+      <div class="subscribe-header-and-content">
+        <h1 class="subscribe-header">Subcribe to get special price</h1>
+        <p class="subscribe-content">Dont wanna miss something? subscribe right now and get special promotion and
+          monthly newsletter</p>
+      </div>
+      <div class="subscribe-search">
+        <input class="subscribe-search-field" type="text" placeholder="Type your email here">
+        <button class="subscribe-search-button">Subscribe</button>
+      </div>
+    </div>
+  </section>
+  <!-- footer -->
+  <footer class="footer">
+
+    <div class="footer-main-wrapper">
+      <div class="footer-main-inner-wrapper">
+        <div class="footer-contact-info">
+          <h3 class="footer-heading">Contact Information</h3>
+          <h5 class="footer-contents"><i class="fa-solid fa-location-dot"> <span class=" footer-content-icon"> 732
+                Despard St, Atlanta</span></i></h5>
+          <h5 class="footer-contents"><i class="fa-solid fa-envelope "> <span
+                class=" footer-content-icon">info@traveller.com</span></i></h5>
+          <h5 class="footer-contents"><i class="fa-solid fa-phone "> <span class=" footer-content-icon">+97 888
+                8888</span></i></h5>
+        </div>
+        <div class="footer-quick-link">
+          <h3 class="footer-heading">Quick Link</h3>
+          <h5 class="footer-contents footer-content-icon">Home</h5>
+          <h5 class="footer-contents footer-content-icon">About Us</h5>
+          <h5 class="footer-contents footer-content-icon">Tours</h5>
+          <h5 class="footer-contents footer-content-icon">Contact</h5>
+        </div>
+        <div class="footer-follow-us">
+          <h3 class="footer-heading">Quick Link</h3>
+          <div class="footer-social-media">
+            <h5 class="footer-contents"><i class="fa-brands fa-facebook"></i></h5>
+            <h5 class="footer-contents"><i class="fa-brands fa-twitter"></i></h5>
+            <h5 class="footer-contents"><i class="fa-brands fa-youtube"></i></h5>
+            <h5 class="footer-contents"><i class="fa-brands fa-instagram"></i></h5>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-copywright"> Copyright © All rights reserved</div>
+  </footer>
+
 </body>
 
 </html>
